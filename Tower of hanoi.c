@@ -2,10 +2,8 @@
 #include <stdlib.h>
 void toh(int n,char s,char d,char t)
 {
-
     if(n>1)
     {
-
         toh(n-1,s,t,d);
         printf("\n Move %d disc from %c to %c",n,s,d);
         toh(n-1,t,d,s);
