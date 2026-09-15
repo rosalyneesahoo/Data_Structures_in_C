@@ -3,9 +3,8 @@
 #include<ctype.h>
 #include<math.h>
 #define SIZE 20
+
 typedef struct{
-
-
     int top;
     char data[SIZE];
 }STACK;
